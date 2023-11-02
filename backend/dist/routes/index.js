@@ -3,6 +3,6 @@ import userRouter from './user-routes.js';
 import chatRouter from './chats-routes.js';
 const appRouter = Router();
 appRouter.use("/user", userRouter);
-appRouter.use("/chats", chatRouter);
+appRouter.use("/chat", chatRouter);
 export default appRouter;
 //# sourceMappingURL=index.js.map
